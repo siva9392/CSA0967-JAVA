@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class multiplication{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a table name");
+        int n=input.nextInt();
+        Scanner input1=new Scanner(System.in);
+        System.out.println("enter a number which you need");
+        int m=input1.nextInt();
+        for(int i=1;i<=m;i++)
+        {
+            System.out.printf(n+"*"+i+"=",+n*i);
+        }
+    }
+}
