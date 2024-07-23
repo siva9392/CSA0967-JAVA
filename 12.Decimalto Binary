@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class decimal{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a decimal number");
+        int n=input.nextInt(); 
+String bin=Integer.toBinaryString(n); 
+System.out.println("Binary number = "+bin); 
+}
+}
+    
+            
