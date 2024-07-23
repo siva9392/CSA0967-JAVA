@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class firsec{
+    public static void main(String[] args){
+     Scanner input=new Scanner(System.in);
+     System.out.println("enter the numbers:")
+     int lower=input.nextInt(); 
+     int upper= input.nextInt();
+     for(int i=lower;i<=upper;i++) 
+{ 
+    System.out.println("("+i+","+(i*i)+")"+" ");
+    }
+    }
+}
