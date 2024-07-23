@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class stringsequalornot{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter the first string:");
+       String s1=input.nextLine();
+        System.out.println("enter the second string:");
+        String  s2=input.nextLine();
+        if(s1.equals(s2))
+        {
+            System.out.println("strings are equal");
+        }
+        else
+        {
+        
+        System.out.println("not equal");
+    }
+}
+}
