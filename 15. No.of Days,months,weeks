@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class date{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a day");
+        int n=input.nextInt();
+    int years=n/365;; 
+System.out.println("years: "+years); 
+int weeks=(n%365)/7; 
+System.out.println("weeks: "+weeks);
+int months=(n%365)/12;
+System.out.println("months: "+months);
+ 
+
+    }
+}
