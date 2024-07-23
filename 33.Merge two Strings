@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class merge{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter the first string:");
+       String firstname=input.nextLine();
+        System.out.println("enter the second string:");
+        String  secondname=input.nextLine();
+        
+        
+        System.out.println(firstname+""+secondname);
+    }
+}
