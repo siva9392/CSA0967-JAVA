@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class countword {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter the text:");
+        String text=input.nextLine();
+        
+        String[] words=text.split("\\s+");
+        int wordcount=words.length;
+        String[] sentences=text.split("[!.?]");
+        int sentencecount=sentences.length;
+        System.out.println("Number of words: " + wordcount);
+        System.out.println("Number of sentences: " + sentencecount);
+    }
+}
+        
